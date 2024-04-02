@@ -1,6 +1,6 @@
 What is the purpose of this?
 
-To create components for a zmk dongle: a reversible pcb that features mounting holes, wiring for a reset button, and a 3D printed protective case. The pcb is reversible so that you have the option to mount a reset button to the left or right side of the usb port.
+To create components for a zmk dongle: a reversible pcb that features mounting holes and wiring for a reset button, and a 3D printed protective case. The pcb is reversible so that you have the option to mount a reset button to the left or right side of the usb port.
 
 Files:
 - gerbers for a promicro compatible reversible pcb

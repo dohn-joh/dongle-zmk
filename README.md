@@ -4,6 +4,7 @@ This repo contains:
 - ergogen code used to generate the pcb
 
 What is the purpose of this?
+
 To create a reversible pcb that offers mounting holes, wiring for a reset button, and files for a protective case. The pcb is reversible so that you have the option to either mount the reset button to the left or right side of the usb port.
 
 Bill of materials:

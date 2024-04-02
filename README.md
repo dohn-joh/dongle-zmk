@@ -5,7 +5,7 @@ This repo contains:
 
 What is the purpose of this?
 
-To create a reversible pcb that features mounting holes, wiring for a reset button, and files for a protective case. The pcb is reversible so that you have the option to mount the reset button to the left or right side of the usb port.
+To create a reversible pcb that features mounting holes, wiring for a reset button, and files for a protective case. The pcb is reversible so that you have the option to mount a reset button to the left or right side of the usb port.
 
 Bill of materials:
 - 4 M2 screws (5-6mm length)
@@ -15,7 +15,7 @@ Bill of materials:
 - sockets for the mcu or headers that came with the mcu
 
 Assembly notes:
-- This design is intended to orient the mcu face down, such that the RAW pin is in the top left corner. 
+- PCB design is intended for the mcu to be mounted face down, such that the RAW pin is in the top left corner. 
 - Solder the jumper pads on the same side of the pcb that the mcu is mounted to.
 
 

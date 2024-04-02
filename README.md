@@ -1,11 +1,11 @@
-This repo contains:
+What is the purpose of this?
+
+To create components for a zmk dongle: a reversible pcb that features mounting holes, wiring for a reset button, and a 3D printed protective case. The pcb is reversible so that you have the option to mount a reset button to the left or right side of the usb port.
+
+Files:
 - gerbers for a promicro compatible reversible pcb
 - 3D models for a case
 - ergogen code used to generate the pcb
-
-What is the purpose of this?
-
-To create a reversible pcb that features mounting holes, wiring for a reset button, and files for a protective case. The pcb is reversible so that you have the option to mount a reset button to the left or right side of the usb port.
 
 Bill of materials:
 - 4 M2 screws (5-6mm length)
@@ -19,5 +19,5 @@ Assembly notes:
 - Solder the jumper pads on the same side of the pcb that the mcu is mounted to.
 
 
-This small project was inspired by falkenad's designs for pcbs to be used with various nrf mcus and oled screens.
+This small project was inspired by https://github.com/spe2/zmk_dongle_hardware.
 I used ergogen to generate the pcb and designed the case in fusion360.

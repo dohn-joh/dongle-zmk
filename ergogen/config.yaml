@@ -1,0 +1,67 @@
+units:
+  pcbx: 30
+  pcby: 35
+  #m2 screw hole diameter
+  scd: 2.2
+  mcux: 18
+  mcuy: 33
+
+points:
+  zones:
+    nn:
+    screw_tl:
+      anchor:
+        ref: nn
+        shift: [-11.945, 14]
+      key.tags: screw_hole
+    screw_tr:
+      anchor:
+        ref: nn
+        shift: [11.945, 14]
+      key.tags: screw_hole
+    screw_bl:
+      anchor:
+        ref: nn
+        shift: [-11.945, -14]
+      key.tags: screw_hole
+    screw_br:
+      anchor:
+        ref: nn
+        shift: [11.945, -14]
+      key.tags: screw_hole
+outlines:
+  pcb:
+    - what: rectangle
+      where: nn
+      size: [pcbx, pcby]
+  screws:
+    - what: circle
+      where: screw_hole
+      radius: 2.4/2
+pcbs:
+  dongle:
+    outlines:
+      main:
+        outline: pcb
+    footprints:
+      mcu:
+        what: promicro
+        where: nn
+        adjust.shift: [0, -1.85]
+      screws:
+        what: mounting_hole
+        where: screw_hole
+        params:
+          drill: scd
+          outline: 1
+      reset:
+        what: reset_button
+        where: nn
+        adjust:
+          rotate: -90
+          shift: [13.45,0]
+        params:
+          reverse: true
+          include_bosses: true
+          silkscreen: false
+

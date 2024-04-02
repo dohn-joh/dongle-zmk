@@ -1,0 +1,4 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+"H1, H2, H3, H4",mounting_hole,4,,
+MCU1,promicro,1,mcu,
+SW1,sw_reset_side,1,reset_button,
